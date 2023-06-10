@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html>
-    <body>
-    <form id="passwordResetForm">
-    <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" type="image/x-icon" href="logo-no-background.png"/>
+</head>
+<body>
+    <div class="container">
+        <div class="header__logo">
+            <img src="logo-no-background.png" width="200px" height="auto" alt="Logo">
+        </div>
+        <h2>Reset Password</h2>
+        <form onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="username">Email:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" id="Login" value="Generate Password">
+            </div>
+        </form>
     </div>
-    <div class="form-group">
-        <input type="submit" value="Reset Password">
-    </div>
-</form>
+    <script src="reset.js"></script>
 </body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
+    import { getAuth, sendPasswordResetEmail } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js";
+
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  </script>
+
 </html>
