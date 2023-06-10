@@ -1,4 +1,3 @@
-
 const firebaseConfig = {
     apiKey: "AIzaSyC5KmqA_ZYVKpIWpZpa-r58Epnk0f0B0CU",
     authDomain: "harvesthq-fd804.firebaseapp.com",
