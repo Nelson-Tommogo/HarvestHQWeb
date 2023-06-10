@@ -23,7 +23,8 @@ const firebaseConfig = {
   const app = initializeApp(firebaseConfig);
   const database= getDatabase(app);
   const auth = getAuth();
-  login.addEventListener('click',(e)=>{
+
+  Login.addEventListener('click',(e)=>{
     var email = document.getElementById('email').value;
     var password = document.getElementById('password').value;
  
