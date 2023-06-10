@@ -3,6 +3,7 @@
 <head>
     <title>Login Page</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="logo-no-background.png"/>
     <script>
         function validateForm() {
             var username = document.getElementById("username").value;
@@ -19,6 +20,9 @@
 </head>
 <body>
     <div class="container">
+        <div class="header__logo">
+            <img src="logo-no-background.png" width="200px" height="auto" alt="Logo">
+        </div>
         <h2>Login Page</h2>
         <form onsubmit="return validateForm()">
             <div class="form-group">
