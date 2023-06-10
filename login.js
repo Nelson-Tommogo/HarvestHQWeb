@@ -1,14 +1,4 @@
-function validateForm() {
-    var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
 
-    if (username === "" || password === "") {
-        alert("Please enter both username and password.");
-        return false;
-    }
-    alert("Login successful!");
-    return true;
-}
 const firebaseConfig = {
     apiKey: "AIzaSyC5KmqA_ZYVKpIWpZpa-r58Epnk0f0B0CU",
     authDomain: "harvesthq-fd804.firebaseapp.com",
