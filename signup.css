@@ -51,3 +51,14 @@ body {
 .form-group input[type="submit"]:hover {
     background-color: #45a049;
 }
+.container {   
+    padding: 20px;   
+    background-color:FFFFFF;
+    width: auto;  
+    align-items: center;
+    padding: 20px;
+    height: 90%;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
