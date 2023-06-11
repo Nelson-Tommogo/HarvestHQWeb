@@ -28,8 +28,8 @@ const firebaseConfig = {
   const auth = getAuth();
 
   Login.addEventListener('click',(e)=>{
-    var email = document.getElementById('email').value;
-    var password = document.getElementById('password').value;
+    var email = document.getElementsByName('email').value;
+    var password = document.getElementsByName('password').value;
  
        signInWithEmailAndPassword(auth, email, password)
        .then((userCredential) => {

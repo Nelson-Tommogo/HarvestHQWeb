@@ -23,9 +23,9 @@
     const auth = getAuth();
 
     SignUp.addEventListener('click',(e) => {
-var email = document.getElementById('email').value;
-var password = document.getElementById('password').value;
-var username = document.getElementById('username').value;
+var email = document.getElementsByName('email').value;
+var password = document.getElementsByName('password').value;
+var username = document.getElementsByName('username').value;
 
 createUserWithEmailAndPassword(auth, email, password)
   .then((userCredential) => {

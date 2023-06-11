@@ -42,4 +42,4 @@ function handlePasswordReset(event) {
 }
 
 // Event listener for password reset form submission
-document.getElementById("Login").addEventListener("submit", handlePasswordReset);
+document.getElementsByName("Login").addEventListener("submit", handlePasswordReset);
