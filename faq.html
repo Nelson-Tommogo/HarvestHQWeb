@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ PAGE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Include Font Awesome CSS -->
+    <link rel="icon" type="image/x-icon" href="logo-no-background.png"/>
+    <link rel="stylesheet" href="faqs.css">
+    <link rel="stylesheet" href="bot.css">
+    <link rel="stylesheet" href="homebat.css">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="logo-no-background.png" alt="Logo">
+      </div>
+      <div class="container">
+        <a href="index.html" class="home-link">
+          <i class="fas fa-home home-icon"></i>
+          Home
+        </a>
+    </div>
+    <main>
+        <h1 class="faq-heading">FAQ's Section</h1>
+        <section class="faq-container">
+            <div class="faq-one">
+                <h1 class="faq-page">What is HarvestHQ?</h1>
+                <div class="faq-body">
+                    <p>HarvestHQ is a platform that connects small-scale farmers in 
+                        Africa with information, resources, and markets to help them improve 
+                        their productivity, profitability, and sustainability.
+                    </p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-two">
+                <h1 class="faq-page">How does HarvestHQ work?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p> HarvestHQ uses a combination of mobile technology, data analytics, and 
+                        partnerships with local organizations to provide farmers with access to information on
+                         weather, soil health, crop management, and more. 
+                         It also connects farmers with markets to help them sell their products and
+                          earn a fair price.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-three">
+<h1 class="faq-page">What types of information and resources does HarvestHQ provide?</h1>
+                <div class="faq-body">
+                    <p>HarvestHQ provides a range of information and resources to help farmers 
+                        improve their productivity and sustainability. This includes weather forecasts, 
+                        soil health analysis, crop management advice, and access to markets and finance.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-four">
+<h1 class="faq-page"> Is HarvestHQ free to use?</h1>
+                <div class="faq-body">
+                    <p> HarvestHQ is free to use for farmers. However, 
+                        there may be fees associated with certain 
+                        services or transactions, such as accessing finance or using the marketplace.
+                    </p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-five">
+<h1 class="faq-page">How can I get started with HarvestHQ?</h1>
+                <div class="faq-body">
+                    <p> To get started with HarvestHQ, you can visit our website and create an account. 
+                        From there, you can access information, 
+                        resources, and services to help you improve your farming practices and profitability.
+                        However, Our android Application is on the verge of complication, you'll be directed
+                        to download it for ease of access.
+                    </p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-six">
+<h1 class="faq-page">How can HarvestHQ help me improve my profitability?</h1>
+                <div class="faq-body">
+                    <p> HarvestHQ can help farmers improve their profitability by providing access to 
+                        markets, helping them to sell their products at a fair price, 
+                        and by providing information and resources to help them improve their yields and 
+                        reduce waste.
+                    </p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-seven">
+<h1 class="faq-page">What kind of training and support does HarvestHQ offer to farmers?</h1>
+                <div class="faq-body">
+                    <p> HarvestHQ offers training and support on a range of topics, 
+                        including crop management,Types of Fertilizers, and marketing Strategies. 
+                        It also provides farmers with access to a network of experts and other farmers who can share 
+                        their experiences and offer advice. However this feature will be soon activated 
+                    </p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-eight">
+<h1 class="faq-page">How does HarvestHQ ensure the privacy and security of farmer data?</h1>
+                <div class="faq-body">
+                    <p> HarvestHQ takes data privacy and security very seriously.
+                         It uses industry-standard encryption and security protocols to protect farmer data, 
+                         and it only shares data with trusted partners when necessary.
+                    </p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-nine">
+<h1 class="faq-page">How does HarvestHQ ensure that farmers get a fair price for their products?</h1>
+                <div class="faq-body">
+                    <p> HarvestHQ partners with buyers and traders who are committed to paying fair prices to farmers.
+                        It also provides farmers with market information so they can make informed decisions 
+                        about when and where to sell their products.
+                    </p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-ten">
+<h1 class="faq-page">What kind of crops does HarvestHQ support?</h1>
+                <div class="faq-body">
+                    <p> HarvestHQ supports a wide range of crops, 
+                        including staple crops like maize, rice, and wheat, 
+                        as well as cash crops like coffee, tea, and cocoa.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <button id="chatButton" class="chat-button"><i class="fas fa-comment"></i></button>
+    <div id="chatWindow" class="chat-window">
+        <div class="title">NEED HELP?</div>
+      <div id="chatMessages" class="chat-messages"></div>
+      <div class="chat-input">
+        <input type="text" id="messageInput" placeholder="Type your message...">
+        <button id="sendButton">Send</button>
+      </div>
+    </div>
+    <script src="bot.js"></script>
+    <script src="faqs.js"></script>
+</body>
+</html>
